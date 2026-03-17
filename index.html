@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dinosearch</title>
+
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="top-area">
+			<header>
+				<h1>Dinosearch</h1>
+				<input type="text" id="searchbar" placeholder="Search dinosaurs...">
+			</header>
+		</div>
+	<!--buttons-->
+		<div class="filters">
+			<button class="filter-btn habitat" data-value="jungle" onclick="filterHabitat('jungle')">Forest</button>
+			<button class="filter-btn habitat" data-value="sandstone" onclick="filterHabitat('sandstone')">Desert</button>
+			<button class="filter-btn habitat" data-value="ocean" onclick="filterHabitat('ocean')">Ocean</button>
+			<button class="filter-btn habitat" data-value="snow" onclick="filterHabitat('snow')">Snow</button>
+			<button class="filter-btn habitat" data-value="sky" onclick="filterHabitat('sky')">Sky</button>
+			<button class="filter-btn diet" data-value="carnivore" onclick="filterDiet('carnivore')">Carnivore</button>
+			<button class="filter-btn diet" data-value="herbivore" onclick="filterDiet('herbivore')">Herbivore</button>
+			<button class="filter-btn diet" data-value="omnivore" onclick="filterDiet('omnivore')">Omnivore</button>
+		</div>
+		
+			<main class="dino-container" id="dinoContainer"></main>
+		<script src="script.js"></script>
+	</body>
+</html>
