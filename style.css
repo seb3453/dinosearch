@@ -162,22 +162,23 @@ transform: scale(0.95);
 
 /* CARDS */
 
-.ocean{
-	background-image:url("images/ocean.jpg");
+.ocean {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
 }
 
-.sandstone{
-	background-image:url("images/desert.jpg");
+.sandstone {
+    background: linear-gradient(135deg, #3b2f1e, #6e4a24, #a67c52);
 }
 
-.snow{
-	background-image:url("images/snow.jpg");
+.snow {
+    background: linear-gradient(135deg, #dfe9f3, #bfc9d1, #8f9ea8);
+    color: #1f1f1f; /* IMPORTANT so text stays readable */
 }
 
-.sky{
-	background-image:url("images/sky.jpg");
+.sky {
+    background: linear-gradient(135deg, #4facfe, #3a7bd5, #1f3c88);
 }
 
-.jungle{
-	background-image:url("images/jungle.jpg");
+.jungle {
+    background: linear-gradient(135deg, #1b2f24, #2f5233, #3a7c5c);
 }
