@@ -1,1 +1,183 @@
+/* DATEI.CSS */
 
+
+body{
+    margin:0;
+    font-family:Roboto, sans-serif;
+    background:#1f1f1f;
+    color:#e8e8e8;
+}
+
+.top-area{
+	background-image:url("images/junglebg.jpg");
+	background-size:cover;
+	background-position:center;
+	background-color:#2f5233;
+	padding:40px;
+}
+
+.content-area{
+	background-image:url("images/stonebg.jpg");
+	background-size:cover;
+	background-position:center;
+	background-color:#1f1f1f;
+	padding:40px;
+}
+
+/* HEADER */
+
+header{
+    text-align:center;
+    padding:40px 20px;
+    background:#2f5233;
+}
+
+h1{
+    font-family:'Cinzel', serif;
+    font-size:48px;
+    letter-spacing:3px;
+    margin-bottom:20px;
+}
+
+/* SEARCH BAR */
+
+.searchbar{
+    padding:10px;
+    width:250px;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+}
+
+/* BUTTON */
+
+button{
+    margin-top:10px;
+    padding:8px;
+    border:none;
+    border-radius:6px;
+    background:#3a7c5c;
+    color:white;
+    cursor:pointer;
+}
+
+/*FILTERS*/
+
+.filters{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+padding:20px;
+justify-content:center;
+}
+
+.filters button{
+background:#2f5233;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.filters button:hover{
+background:#5da67f;
+}
+
+/* DINO CARD GRID */
+
+.dino-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+    gap:25px;
+    padding:40px;
+}
+
+/* CARD */
+
+.dino-card{
+    position:relative;
+    height:400px;
+    border-radius:12px;
+    padding:20px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+
+.card-info{
+max-height: 0;
+overflow: hidden;
+transition: all 0.4s ease;
+opacity: 0;
+}
+
+.dino-card.active .card-info{
+max-height: 500px;
+opacity: 1;
+}
+
+/* DARK OVERLAY */
+
+.dino-card::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.45);
+    border-radius:12px;
+}
+
+.dino-card h2,
+.dino-card p,
+.dino-card button{
+    position:relative;
+}
+
+/*BUTTONS*/
+
+button:hover{
+    background:#5da67f;
+}
+
+.toggle-btn{
+margin-top:10px;
+padding:6px 10px;
+background:#2f5233;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.toggle-btn:hover{
+background:#5da67f;
+}
+
+.filter-btn.active-btn{
+background:#1b3322;
+transform: scale(0.95);
+}
+
+/* CARDS */
+
+.ocean{
+	background-image:url("images/ocean.jpg");
+}
+
+.sandstone{
+	background-image:url("images/desert.jpg");
+}
+
+.snow{
+	background-image:url("images/snow.jpg");
+}
+
+.sky{
+	background-image:url("images/sky.jpg");
+}
+
+.jungle{
+	background-image:url("images/jungle.jpg");
+}
