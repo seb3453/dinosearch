@@ -56,7 +56,7 @@ card.innerHTML = `
 <h2>${dino.name}</h2>
 
 <div class="diet-icon">
-<img src="${dino.diet}.png">
+<img src="${dino.diet}.jpg">
 <span class="tooltip">${capitalize(dino.diet)}</span>
 </div>
 </div>
