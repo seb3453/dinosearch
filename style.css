@@ -162,7 +162,7 @@ transform: scale(0.95);
 /* CARDS */
 
 .ocean {
-    background: linear-gradient(135deg, #1e4f8a, #2a6fba, #4facfe);
+    background: linear-gradient(135deg, #4facfe, #3a7bd5, #1fc88);
 }
 
 .sandstone {
@@ -175,7 +175,7 @@ transform: scale(0.95);
 }
 
 .sky {
-    background: linear-gradient(135deg, #dbeafe, #a7c7ff, #6fb1ff);
+    background: linear-gradient(135deg, #6fb1ff, #a7c7ff, #dbeafe);
 	color: #1f1f1f;
 }
 
