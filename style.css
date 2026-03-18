@@ -132,6 +132,7 @@ opacity: 1;
 .diet icon img{
 	width: 30px;
 	height: 30px;
+	object-fit: contain;
 }
 
 /* DARK OVERLAY */
