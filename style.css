@@ -61,6 +61,12 @@ button{
     cursor:pointer;
 }
 
+
+.diet-icon img {
+    width: 5px;
+    height: 5px;
+}
+
 /*FILTERS*/
 
 .filters{
