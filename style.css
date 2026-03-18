@@ -162,7 +162,7 @@ transform: scale(0.95);
 /* CARDS */
 
 .ocean {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(135deg, #1e4f8a, #2a6fba, #4facfe);
 }
 
 .sandstone {
@@ -170,12 +170,13 @@ transform: scale(0.95);
 }
 
 .snow {
-    background: linear-gradient(135deg, #dfe9f3, #bfc9d1, #8f9ea8);
-    color: #1f1f1f; /* IMPORTANT so text stays readable */
+    background: linear-gradient(135deg, #ffffff, #eef3f8, #d6e0ea);
+    color: #1f1f1f;
 }
 
 .sky {
-    background: linear-gradient(135deg, #4facfe, #3a7bd5, #1f3c88);
+    background: linear-gradient(135deg, #dbeafe, #a7c7ff, #6fb1ff);
+	color: #1f1f1f;
 }
 
 .jungle {
