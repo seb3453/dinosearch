@@ -12,6 +12,7 @@ body{
 	background-image:url("background1.jpg");
 	background-size:cover;
 	background-position:center;
+	background-color:#2f5233;
 	padding:40px;
 }
 
@@ -19,7 +20,6 @@ body{
 	background-image:url("background2.jpg");
 	background-size:cover;
 	background-position:center;
-	background-color:#1f1f1f;
 	padding:40px;
 }
 
