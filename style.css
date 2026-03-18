@@ -171,7 +171,7 @@ transform: scale(0.95);
 }
 
 .snow {
-    background: linear-gradient(135deg, #ffffff, #eef3f8, #d6e0ea);
+    background: linear-gradient(135deg, #d6e0ea, #eef3f8, #ffffff);
     color: #1f1f1f;
 }
 
