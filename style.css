@@ -193,10 +193,10 @@ transform: scale(0.95);
 	right: 10px;
 }
 
-.diet icon img {
-	width: 5px !important;
-	height: 5px !important;
-	max-width: 100% !important;
-	max-height: 100% !important;
+.diet-icon img {
+	width: 30px;
+	height: 30px;
+	max-width: 100%;
+	max-height: 100%;
 	object-fit: contain;
 }
