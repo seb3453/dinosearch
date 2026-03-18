@@ -4,6 +4,11 @@
 body{
     margin:0;
     font-family:Roboto, sans-serif;
+	background-image:url("background2.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	padding:40px;
     color:#e8e8e8;
 }
 
@@ -12,14 +17,6 @@ body{
 	background-size:cover;
 	background-position:center;
 	background-color:#2f5233;
-	padding:40px;
-}
-
-.content-area{
-	background-image:url("background2.jpg");
-	background-size:cover;
-	background-position:center;
-	background-repeat: no-repeat;
 	padding:40px;
 }
 
