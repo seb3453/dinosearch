@@ -120,21 +120,6 @@ max-height: 500px;
 opacity: 1;
 }
 
-/*DIET ICONS*/
-
-.diet-icon{
-	position:absolute;
-	top: 10px;
-	right: 10px
-	z-index: 2;
-}
-
-.diet icon img{
-	width: 5px;
-	height: 5px;
-	object-fit: contain;
-}
-
 /* DARK OVERLAY */
 
 .dino-card::before{
@@ -198,4 +183,20 @@ transform: scale(0.95);
 
 .jungle {
     background: linear-gradient(135deg, #1b2f24, #2f5233, #3a7c5c);
+}
+
+/*DIET ICONS*/
+
+.diet-icon{
+	position:absolute;
+	top: 10px;
+	right: 10px
+	z-index: 2;
+}
+
+.diet icon img{
+	width: 5px !important;
+	height: 5px !important;
+	object-fit: contain;
+	display: block;
 }
