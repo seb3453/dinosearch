@@ -196,8 +196,6 @@ transform: scale(0.95);
 .diet-icon img {
 	width: 50%;
 	height: 50%;
-	object-fit: contain;
-	display: block;
 }
 
 .diet-icon .tooltip {
