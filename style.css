@@ -187,17 +187,16 @@ transform: scale(0.95);
 
 /*DIET ICONS*/
 
-.diet-icon{
-	position:absolute;
+.diet-icon {
+	display: inline-block;
 	top: 10px;
-	right: 10px
-	z-index: 2;
+	right: 10px;
 }
 
-.diet icon img{
+.diet icon img {
 	width: 5px !important;
 	height: 5px !important;
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 100% !important;
+	max-height: 100% !important;
 	object-fit: contain;
 }
