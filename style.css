@@ -197,6 +197,7 @@ transform: scale(0.95);
 .diet icon img{
 	width: 5px !important;
 	height: 5px !important;
+	max-width: 100%;
+	max-height: 100%;
 	object-fit: contain;
-	display: block;
 }
