@@ -188,7 +188,6 @@ transform: scale(0.95);
 /*DIET ICONS*/
 
 .diet-icon {
-	display: inline-block;
 	width: 5px
 	height: 5px;
 	position: relative;
@@ -201,3 +200,6 @@ transform: scale(0.95);
 	object-fit: contain;
 	display: block;
 }
+
+.diet-icon .tooltip {
+	display: none;
